@@ -1,4 +1,4 @@
-﻿const key = process.env.HUBSPOT_KEY
+﻿const key = require('./env.js').HUBSPOT_KEY()
 var request = require('request-promise');
 
 exports.getCompanies = (properties = [], limit = 250) => request(`https://api.hubapi.com/companies/v2/companies/paged?hapikey=${key}&properties=${properties.join("&properties=")}&limit=${limit}`).then((results) => {
