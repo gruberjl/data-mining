@@ -1,3 +1,8 @@
+const emailParser = require('./email-parser')
+
+
+
+/*
 const linkedin = require('./linkedin.js')
 const hubspot = require('./HubSpot.js')
 var webdriver = require('selenium-webdriver')
@@ -30,3 +35,4 @@ const getCompanies = () => {
     })
   })
 }
+*/
