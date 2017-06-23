@@ -4,8 +4,9 @@ var webdriver = require('selenium-webdriver')
 const {By, until} = webdriver
 
 linkedin.login().then((results) => {
-  linkedin.getCompany('https://www.linkedin.com/company/hoagland-longo-moran-dunst-&-doukas').then((companyInfo) => {
-    
+  linkedin.getCompanyEmployees('59078').then((results) => {
+    console.log(results)
+    linkedin.quit();
   })
 })
 
