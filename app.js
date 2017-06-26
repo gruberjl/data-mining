@@ -1,6 +1,4 @@
-const emailParser = require('./email-parser')
-
-
+const {find, validate} = require('./email-parser')
 
 /*
 const linkedin = require('./linkedin.js')

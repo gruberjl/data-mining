@@ -11,3 +11,13 @@ const parser = (people) => {
   })
 }
 */
+
+/* example results
+
+{ salutation: 'Mr.',
+  firstName: 'john',
+  initials: 'L',
+  lastName: 'gruber',
+  suffix: 'Jr' }
+
+*/
